@@ -1,6 +1,9 @@
 iabbrev pf <bs>@printf[I32]("\n".cstring())<Esc>13<Left>i
+iabbrev pef <bs>env.out.print("")<esc>2<left>i
+
 iabbrev ij <bs>if   then<cr>  <cr><bs>end<esc>2<up>1<right>i
 iabbrev iej <bs>if   then<cr>  <cr><bs>else<cr><cr><bs>end<esc>7<up>1<right>i
+
 iabbrev tj <bs>try<cr>  <cr><bs>end<esc>1<up><tab>i
 iabbrev tej <bs>try<cr>  <cr><bs>else<cr>  <cr><bs>end<esc>3<up><tab>i
 
